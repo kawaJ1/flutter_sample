@@ -1,0 +1,31 @@
+# ---- Flutter / Dart 共通 ----
+# ビルド成果物や生成ファイルはコミットしない
+/build/
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# ---- IDEごとの設定 ----
+# VSCode
+.vscode/
+# Android Studio
+.idea/
+*.iml
+
+# ---- OS依存ファイル ----
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+desktop.ini
+
+# ---- ログや一時ファイル ----
+*.log
+*.tmp
+
+# ---- 環境ごとの設定ファイル ----
+# APIキーなどの秘密情報を含む可能性がある場合は除外
+.env
+.env.*
