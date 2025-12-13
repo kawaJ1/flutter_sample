@@ -1,7 +1,7 @@
 # Flutter Sample Codes
 
 このリポジトリは、Flutterの基礎を学ぶためのサンプルコード集です。  
-[Qiitaの記事]()の章ごとにディレクトリを分けており、Flutter の挙動を確認できます。
+[Qiitaの記事](https://qiita.com/kawaJ1/items/d1e3be32798d1fcf9456)の章ごとにディレクトリを分けており、Flutter の挙動を確認できます。
 
 ## プロジェクト構成
 libディレクトリ以外は、flutterコマンドでプロジェクトを生成したときのままです
