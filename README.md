@@ -1,16 +1,25 @@
-# flutter_sample
+# Flutter Sample Codes
 
-A new Flutter project.
+このリポジトリは、Flutterの基礎を学ぶためのサンプルコード集です。  
+[Qiitaの記事]()の章ごとにディレクトリを分けており、Flutter の挙動を確認できます。
 
-## Getting Started
+## プロジェクト構成
+libディレクトリ以外は、flutterコマンドでプロジェクトを生成したときのままです
+```
+lib/
+├── c01_part_ex              ← part構文
+├── c02_widget_tree_ex       ← Widgetツリー
+├── c03_stateless_widget_ex  ← Stateful / Stateless の違い
+└── c04_stateful_widget _ex  ← Stateful / Stateless の違い
+````
 
-This project is a starting point for a Flutter application.
+## 実行方法
+```bash
+# dartのみで実行する場合
+# 対象：c01_part_ex のみ
+dart run lib/c01_part_ex/main.dart
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# flutterを使う場合
+# 対象：c01_part_ex 以外
+flutter run -t lib/c02_stateless_widget_ex/main.dart
+```
