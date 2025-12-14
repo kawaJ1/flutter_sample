@@ -7,10 +7,12 @@
 libディレクトリ以外は、flutterコマンドでプロジェクトを生成したときのままです
 ```
 lib/
-├── c01_part_ex              ← part構文
-├── c02_widget_tree_ex       ← Widgetツリー
-├── c03_stateless_widget_ex  ← Stateful / Stateless の違い
-└── c04_stateful_widget _ex  ← Stateful / Stateless の違い
+├── c01_part_ex               ← part構文
+├── c02_widget_tree_ex        ← Widgetツリー
+├── c03_stateless_widget_ex   ← Stateful / Stateless の違い
+├── c04_stateful_widget _ex   ← Stateful / Stateless の違い
+├── c05_basic_exception_ex    ← 基本的な例外処理
+└── c06_flutter_exception_ex  ← Flutterの例外処理
 ````
 
 ## 実行方法
